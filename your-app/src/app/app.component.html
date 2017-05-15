@@ -1,6 +1,6 @@
 <form [formGroup]="form">
   <select formControlName="state">
-        <option [ngValue]="state" *ngFor="let state of states" [ngValue]="state">
+        <option *ngFor="let state of states" [ngValue]="state">
           {{ state.abbrev }}
         </option>
       </select>
