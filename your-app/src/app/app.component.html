@@ -1,3 +1,8 @@
-<h1>
-  {{title}}
-</h1>
+<form [formGroup]="form">
+  <select formControlName="state">
+        <option [ngValue]="state" *ngFor="let state of states" [ngValue]="state">
+          {{ state.abbrev }}
+        </option>
+      </select>
+</form>
+<p>Form value: {{ form.value | json }}</p>
