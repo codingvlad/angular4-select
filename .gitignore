@@ -1,6 +1,8 @@
 # See http://help.github.com/ignore-files/ for more about ignoring files.
 
 your-app/*
-!your-app/src/app/*
-!your-app/src/index.html
+!your-app/src/
+your-app/src/*
 !your-app/src/main.ts
+!your-app/src/index.html
+!your-app/src/app
