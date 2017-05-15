@@ -40,3 +40,10 @@ testem.log
 # System Files
 .DS_Store
 Thumbs.db
+
+# Others
+karma.conf.js
+package.json
+protractor.conf.js
+tsconfig.json
+tslint.json
